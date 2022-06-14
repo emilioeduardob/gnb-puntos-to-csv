@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kiba (4.0.0)
+    kiba-common (1.5.0)
+      kiba (>= 3.0.0, < 5)
+    nokogiri (1.13.6-x86_64-darwin)
+      racc (~> 1.4)
+    racc (1.6.0)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  kiba
+  kiba-common
+  nokogiri
+
+BUNDLED WITH
+   2.3.12
